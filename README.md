@@ -1,1 +1,1 @@
-# Image-Segmentation-and-Edge-Detection-Python-
+# Image-Segmentation-and-Edge-Detection-Python

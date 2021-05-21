@@ -1,9 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
-
+from toolbar import ToolBar
+from viewer import Viewer
 class Main(tk.Tk):
     def __init__(self):
-        tk.TK.__init__(self)
+        tk.Tk.__init__(self)
         self.filename = None
         self.origin_image = None
         self.processed_image = None
@@ -12,7 +13,7 @@ class Main(tk.Tk):
 
         self.toolbar = ToolBar(master=self)
         separator = ttk.Separator(master=self)
-        self.image_view = Viewr(master=self)
+        self.image_viewer = Viewer(master=self)
 
         self.toolbar.pack(pady=10)
         separator.pack(fill=tk.X, padx=20, pady=5)
