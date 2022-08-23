@@ -75,7 +75,7 @@ monotonic==1.5
 more-itertools==4.2.0
 nbclassic==0.2.8
 nbclient==0.5.3
-nbconvert==6.3.0
+nbconvert==6.5.1
 nbformat==5.0.4
 nest-asyncio==1.5.1
 netifaces==0.10.4
