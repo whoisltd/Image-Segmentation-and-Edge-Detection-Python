@@ -84,7 +84,7 @@ numpy==1.22.0
 oauthlib==3.1.0
 olefile==0.46
 opencv-python==4.5.2.52
-OWSLib==0.19.1
+OWSLib==0.28.1
 packaging==20.9
 PAM==0.4.2
 pandocfilters==1.4.3
